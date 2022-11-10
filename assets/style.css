@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body ul li {
+    margin: 0;
+}
+
+section {
+    display: block;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar img {
+    height: 60px;
+    width: auto;
+}
+
+.navbar ul {
+    margin-top: 10px;
+    float: right;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    padding: 8px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.content {
+    width: 80%;
+    height: 200px;
+    background: rgb(102, 99, 99);
+    float: left;
+}
+
+.sidebar {
+    width: 20%;
+    height: 200px;
+    background: blue;
+    float: right;
+}
+
+.left,
+.right {
+    width: 300px;
+    height: 300px;
+}
+
+.left {
+    background-color: aqua;
+    float: left;
+}
+
+.right {
+    background-color: blueviolet;
+    float: right;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.footer {
+    background-color: rgb(41, 40, 40);
+    color: rgb(197, 194, 194);
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.content .fiture {
+    background: orange;
+}
+
+
+.content .fiture .col .fiture-item {
+    height: 100px;
+    background-color: azure;
+}
+
+.col {
+    padding: 10px;
+    float: left;
+}
+
+.col-1 {
+    width: calc((100% * 1/12) - 20px);
+}
+
+.col-2 {
+    width: calc((100% * 2/12) - 20px);
+}
+
+.col-3 {
+    width: calc((100% * 3/12) - 20px);
+}
+
+.col-4 {
+    width: calc((100% * 4/12) - 20px);
+}
+
+.col-5 {
+    width: calc((100% * 5/12) - 20px);
+}
+
+.col-6 {
+    width: calc((100% * 6/12) - 20px);
+}
+
+.col-7 {
+    width: calc((100% * 7/12) - 20px);
+}
+
+.col-8 {
+    width: calc((100% * 8/12) - 20px);
+}
+
+.col-9 {
+    width: calc((100% * 9/12) - 20px);
+}
+
+.col-10 {
+    width: calc((100% * 10/12) - 20px);
+}
+
+.col-11 {
+    width: calc((100% * 11/12) - 20px);
+}
+
+.col-12 {
+    width: calc((100% * 12/12) - 20px);
+}

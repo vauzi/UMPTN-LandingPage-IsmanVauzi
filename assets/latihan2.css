@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.home {
+    background: rgb(199, 198, 198);
+}
+
+nav.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0 60px;
+    background: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.header h1,
+.header li {
+    text-transform: uppercase;
+}
+
+.header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+}
+
+.header li {
+    list-style: none;
+    padding: 7px 13px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(34, 34, 33);
+}
+
+.button {
+    background: rgb(14, 13, 13);
+    color: rgb(211, 206, 206);
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.conten1 {
+    padding-left: 40px;
+}
+
+.conten1 h1 {
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conten2 {
+    width: 60%;
+    overflow: hidden;
+}
+
+.conten1 .tex {
+    color: rgb(56, 56, 56);
+    font-size: 25px;
+    padding: 25px 5px;
+}
+
+.conten1 .texted {
+    background: rgb(245, 242, 242);
+    transform: rotateX(-9deg);
+}
+
+.texts {
+    background: rgb(236, 94, 11);
+}
+
+.apple {
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px 9px;
+    margin-right: 20px;
+}
+
+.tombol {
+    display: flex;
+}
+
+.tombol img {
+    height: 30px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.textTombol {
+    color: white;
+    margin-left: 15px;
+}
+
+.textTombol p {
+    font-size: 9px;
+    text-align: left;
+}
+
+.conten2 {
+    margin-right: 20px;
+}
+
+.conten2 figure img {
+    height: 100%;
+    margin-bottom: -3px;
+}
+
+.content .titleText {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.card {
+    width: calc((100% / 3) - 40px);
+    margin: 0 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardtext {
+    padding: 2px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#under {
+    background: rgb(255, 122, 13);
+    margin-top: 120px;
+}
+
+#under .container {
+    display: flex;
+}
+
+.container .content-under-1 img {
+    margin-bottom: -4px;
+}
+
+.container .content-under-2 {
+    align-self: center;
+    padding-left: 200px;
+}
+
+.container .content-under-2 .text-1 {
+    background: rgb(240, 237, 237);
+    text-transform: uppercase;
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .content-under-2 .text-2 {
+    text-transform: uppercase;
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .content-under-2 .btn-shop {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+}
+
+#review .container {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+#review .container .conten1-review-1 {
+    width: 40%;
+}
+
+#review .container .content-review-1 h3 {
+    font-size: 55px;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#review .container .content-review-1 p {
+    color: rgb(141, 141, 140);
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#review .container .content-review-1 .btn-view {
+    margin-top: 20px;
+    padding: 10px 35px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+}
+
+#review .container .content-review-2 {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#review .container .content-review-2 .carder {
+    width: calc((100% / 3) - 20px);
+    height: 140px;
+    margin: 10px 10px;
+    gap: 7px;
+    background: rgb(221, 217, 217);
+    display: flex;
+    border-radius: 3px;
+}
+
+#review .container .content-review-2 .carder img {
+    align-self: center;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#favorite .container {
+    padding: 60px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#favorite .container h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#favorite .container .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#favorite .container .card-favorite {
+    width: calc(50% - 20px);
+    margin: 10px 10px;
+}
+
+#favorite .container .card-favorite .img {
+    height: 30rem;
+    overflow: hidden;
+}
+
+#favorite .container .card-favorite img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+
+#favorite .container .card-favorite .text-favorite {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#favorite .container .card-favorite .text-favorite .text-title {
+    padding: 7px 0;
+}
+
+#favorite .container .card-favorite .text-favorite .text-title p {
+    color: rgb(168, 166, 166);
+}
+
+#app .container {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+#app .container .content-app-1 {
+    width: 40%;
+}
+
+#app .container .content-app-1 h1 {
+    font-size: 60px;
+    display: inline-block;
+    width: 95%;
+}
+
+#app .container .content-app-1 p {
+    font-size: 20px;
+    display: inline-block;
+    width: 95%;
+    margin: 30px 0;
+    color: rgb(189, 192, 194);
+}
+
+#app .container .content-app-1 .app-mobile {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+#app .container .content-app-1 .app-mobile .btn {
+    display: flex;
+    align-items: center;
+    padding: 7px 9px;
+    background: black;
+    border-radius: 5px;
+    color: white;
+}
+
+#app .container .content-app-1 .app-mobile .btn .btn-app-store {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#app .container .content-app-1 .btn img {
+    align-self: center;
+    width: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#app .container .content-app-1 .btn .btn-app-store {
+    padding-left: 7px;
+}
+
+#app .container .content-app-1 .btn .btn-app-store p {
+    font-size: 10px;
+    /* text-align: start; */
+    float: left;
+}
+
+#app .container .content-app-1 .btn .btn-app-store h2 {
+    font-size: 25px;
+}
+
+#app .container .content-app-2 img {
+    height: 50%;
+}
+
+#join {
+    background-image: linear-gradient(rgb(253, 143, 16), rgb(255, 153, 0));
+}
+
+#join .contain {
+    width: 800px;
+    margin: 0 auto;
+    padding: 90px 0;
+    text-align: center;
+}
+
+#join .contain h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#join .contain p {
+    color: rgb(236, 236, 236);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+}
+
+#join .input {
+    width: 50%;
+    background: white;
+    padding: 5px 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+#join .input input {
+    border: none;
+    height: 40px;
+    width: 75%;
+    padding: 0 3px;
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+#join .input input:focus {
+    outline: none;
+}
+
+#join .input .btn-send {
+    color: white;
+    background: black;
+    padding: 9px 15px;
+    border-radius: 3px;
+}
+
+#footer {
+    background: rgb(22, 22, 22);
+    padding: 100px 0;
+}
+
+#footer .container {
+    display: flex;
+}
+
+#footer .container .footer-1 {
+    width: 40%;
+}
+
+#footer .container .footer-1 h1 {
+    font-size: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}
+
+#footer .container .footer-1 h3 {
+    color: rgb(228, 227, 227);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+}
+
+#footer .container .footer-1 p {
+    padding: 7px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(204, 202, 202);
+}
+
+#footer .container .footer-2 {
+    width: 20%;
+}
+
+#footer .container .footer-2 h3 {
+    color: rgb(228, 227, 227);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+}
+
+#footer .container .footer-2 p {
+    padding: 7px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(204, 202, 202);
+}
+
+#footer .container .footer-2 .sosmed {
+    display: flex;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+#footer .container .footer-2 .sosmed .btn-sosmed {
+    padding: 7px 7px;
+    width: 20px;
+    background: orange;
+    border-radius: 12px;
+}
+
+#footer .container .footer-2 .sosmed .btn-sosmed img {
+    width: 100%;
+    align-self: center;
+}
